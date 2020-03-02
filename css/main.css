@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+html, 
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #fff; 
+  line-height: 1.4em;
+  text-align: center; 
+  background-color: #BF3EFF; 
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #5d0252;
+  color: #fff;
+  transition: background-color ease 0.3s;
+}
+
+.btn:hover {
+  background-color: #8b0777;
+}
+
+body {
+  padding-top: 150px;
+}
+
+.wrapper {
+  width: 100%; 
+  padding: 0 10%; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+h1, 
+h2, 
+h3 {
+ font-family: 'Rock Salt', cursive;
+ color: #eaeaea;
+ padding-bottom: 25px; 
+ margin: 0;
+ text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em; 
+}
+
+h3 {
+  font-size: 1em; 
+}
+
+p {
+  font-size: 1.2em; 
+}
+
+header {
+  padding: 40px 0 20px;
+  display: flex; 
+  justify-content:center;
+  align-items:center; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: url(../images/bg.jfif);
+  box-shadow: 0 0 11px 2px rgba(0,0,0,0.6);
+}
+
+.images {
+  display:flex;
+}
+
+.images div {
+  width: 50%; 
+  padding: 20px;
+}
+.images div img {
+  max-width: 100%;
+}
+
+main {
+  padding-top: 60px 0; 
+}
+
+.row {
+  clear: both;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+  padding: 0 15px;
+}
+
+.table-content {
+  padding: 50px 0;
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+
+.table td, .table th {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  padding: 10px 15px;
+}
+
+.form-content {
+  text-align: left;
+  padding: 50px 0;
+}
+
+.form-content .form-group {
+  margin-bottom: 30px;
+}
+
+.form-content .form-group .form-control {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.form-content .form-group label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+footer {
+  border-top: 1px solid #5d0252;
+}
+
+footer p {
+  color: #333; 
+  padding: 30px; 
+}
